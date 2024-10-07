@@ -1,6 +1,6 @@
 import pandas as pd
 
-netflix_titles = "C:/Users/desk/Desktop/vexpenses/netflix_titles.csv"
+netflix_titles = "https://github.com/FredericoSander/Projeto_01_Analise_de_dados_com_Pandas/blob/main/netflix_titles.csv"
 
 df = pd.read_csv(netflix_titles)
 
@@ -230,4 +230,3 @@ top_10_rating_movie = rating_movie_counts.head(10)
 
 print("As top 10 classificações indicativa com mais filmes associados são:")# imprime a resposta contextualiza.
 print(top_10_rating_movie)# imprime a resposta contextualiza.
-
